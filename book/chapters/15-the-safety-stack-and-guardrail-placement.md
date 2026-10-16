@@ -206,7 +206,6 @@ That combination makes oversight scale with **consequence** rather than with **v
 | Review must scale across many changes | Published reusable standards, plus review fired by a written risk classification | Reviewing everything, or reviewing by sampling volume |
 | Failure modes for a risk review, the inherent ones wanted, two wanted | Fluent output that is wrong, and two runs of one request answering differently | Budget growth, network dependence, or needing a valid credential |
 | Customer documents are ingested by an assistant holding outbound tools | Contain the content structurally and gate anything that sends or writes | A larger model, an instruction in the system prompt alone, or matching known attack phrasing |
-
 | A guardrail has to be placed in a Skill or in the application | Content constraints in the Skill; authorisation and durable records in the application | An authorisation rule or audit obligation written into a Skill, which instructs rather than enforces |
 
 The habit worth carrying: for every safety claim in a design, **point at the component that enforces** it. If your finger lands on a paragraph of English, it is not enforced.
