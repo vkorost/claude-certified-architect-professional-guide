@@ -1,3 +1,5 @@
+[![Claude Certified Architect – Professional (CCAR-P) — The Decisions the Exam Tests](./book/claude-certified-architect-professional-guide-social-800x400.jpg)](https://github.com/vkorost/claude-certified-architect-professional-guide/releases/latest)
+
 # Claude Certified Architect – Professional (CCAR-P)
 
 ### The Decisions the Exam Tests
