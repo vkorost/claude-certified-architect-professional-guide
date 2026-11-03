@@ -102,7 +102,6 @@ Two summarising moves look like answers here and are not. **Summarising once at 
 | Layout carries meaning: tables, forms, diagrams | Full visual understanding earns its cost | Text extraction, which discards the thing that mattered |
 | An embedding model is needed | A third-party provider; Anthropic does not offer one | An option describing an Anthropic embeddings endpoint |
 | A very large tool catalogue is hurting the context | Search the catalogue and load only what the task needs | Loading every definition up front |
-
 | One large document is queried many times in one case | Cache it as the prefix; the material repeats and the question moves | Indexing it, which builds a second copy to solve a reuse problem |
 | Content may not leave the customer boundary | An external index is out; a cache creates no durable copy elsewhere | Choosing on retrieval quality and treating the boundary as a later detail |
 

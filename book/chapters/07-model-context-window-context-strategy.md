@@ -155,7 +155,6 @@ Two findings justify that split, and **both have to be present**.
 | Tool results are cleared to reclaim room | Expect cache invalidation; clear a worthwhile amount at once | Frequent small clears that pay the cache cost repeatedly |
 | A tool catalogue is mostly irrelevant per request and quality is suffering | Load tools as a function of the request | Fixing the set in advance, or trimming descriptions until tools are indistinguishable |
 | Material is small, unchanging, or needed on every request | Load it up front | Deferring it, which adds round trips and removes nothing |
-
 | A grown tool catalogue is producing wrong selections | Decompose along a domain seam, on evidence that descriptions overlap | A router in front, which narrows visibility and leaves the overlap exactly where it was |
 
 The habit worth carrying: **before adding anything to a request, ask what it displaces**. The window is working memory, and everything in it competes with everything else.

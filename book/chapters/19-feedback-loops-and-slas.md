@@ -134,7 +134,6 @@ One measurement caveat sits in the same place: **period-to-date spend** is **inf
 | A member's spend request was denied | Their request control hides for 30 days; an administrator can still raise it directly | Treating denial as permanent for everyone |
 | Period-to-date spend reads zero | It may be an unavailable reading, not real usage | Triggering a control on it |
 | A model is being retired | Audit your own API usage to find what still calls it | Relying on the notification to identify your systems |
-
 | A recurring feedback session has to be designed | Artifacts in advance, a focused agenda, written decisions and follow-ups, a named owner with a date | Anything that improves the meeting itself and leaves nothing behind it |
 
 The habit worth carrying: for every signal in your design, ask **what happens to it when nobody is listening**. If the answer is silence, you have built a loop that reports success by saying nothing.
